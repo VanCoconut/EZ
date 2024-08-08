@@ -1,0 +1,24 @@
+stages:
+  - test
+
+before_script:
+  - cd code/server
+  - npm install
+
+test_server:
+  stage: test
+  image: node:latest
+  script:
+    - set NODE_ENV=test
+    - npm run test_unit
+    - npm run test_integration
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "testdelivery"
+test_official:
+  stage: test
+  image: node:latest
+  script:
+    - set NODE_ENV=test
+    - npm run test_official
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "testdelivery"

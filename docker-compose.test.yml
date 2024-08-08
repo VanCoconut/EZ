@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  server-tests:
+    build:
+      context: ./code/server
+      dockerfile: Dockerfile.test
+    networks:
+      - ezelectronics-network
+
+networks:
+  ezelectronics-network:
+    driver: bridge

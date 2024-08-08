@@ -1,0 +1,210 @@
+.searchContainer {
+    width: 400px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: orange;
+    border-style: solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-style: italic;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.selectContainer {
+    padding: 5px;
+    margin: 10px;
+}
+
+.toast {
+    margin-top: 200px;
+    width: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.saved {
+    background-color: rgb(195, 255, 191);
+    border-color: green
+}
+
+.notSaved {
+    background-color: rgb(255, 191, 191);
+    border-color: rgb(255, 169, 169)
+}
+
+.select {
+    border-radius: 10px;
+    border-color: orange;
+    border-style: solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+
+}
+
+.react-dropdown-select-item-selected {
+    background-color: #FFF3CD !important;
+    color: black !important;
+}
+
+.choosen {
+    background-color: antiquewhite;
+}
+
+
+
+.tabApollonContainer #apollon {
+    padding-bottom: 10px;
+}
+
+.tabApollonContainer {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 2px;
+    margin-bottom: 20px;
+
+}
+
+.loadBtn {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 200px;
+}
+
+.logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    opacity: 0.7;
+    border-width: 0.1px;
+    border-style: solid;
+    height: 75vh;
+    background-color: rgb(248, 249, 251);
+}
+
+.alert {
+    font-size: 20px;
+}
+
+.solSubmitted {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.solNotSubmitted {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.functionCnt {
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: orange;
+    border-style: solid;
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+    padding: 25px;
+    height: auto
+}
+
+.functIcon {
+    font-size: 75px;
+    color: gray;
+}
+
+.profileIcon {
+    font-size: 155px;
+    color: goldenrod;
+}
+
+.funct {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.adminTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.exDescrList {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: justify;
+    border-color: white;
+    cursor: pointer;
+
+
+}
+
+.exListCnt {
+    margin: 5px;
+    overflow: scroll;
+    height: 45vh;
+    max-height: 45vh;
+    padding: 0px;
+    border-color: orange;
+    border-style: solid;
+    padding: 0px;
+}
+
+.sel {
+    background-color: #FFF3CD;
+}
+
+th {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+td {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+.greyT {
+    color: grey;
+}
+
+.cursp {
+    cursor: pointer;
+}
+
+.chip {
+    background: orange !important;
+    color: black !important;
+}
+
+.highlightOption {
+    background: #FFF3CD !important;
+    color: black !important;
+}
+
+.multiSelectContainer li:hover {
+    background: #FFF3CD !important;
+    color: black !important;
+}
+
+.offcanvas.offcanvas-top {
+    height: fit-content;
+}
